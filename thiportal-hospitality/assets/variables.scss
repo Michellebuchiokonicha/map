@@ -1,0 +1,58 @@
+// Ref: https://github.com/nuxt-community/vuetify-module#customvariables
+//
+
+// $body-font-family:'poppins';
+//     $title-font: 'Poppins';
+
+//     .v-application {
+//       font-family: $body-font-family, sans-serif !important;
+
+//       // background: #f7f6f6 !important;
+//       .title {
+//         // To pin point specific classes of some components
+//         font-family: $title-font, sans-serif !important;
+//         font-weight: 500;
+//       }
+//     }
+
+//     body {
+//       padding: 0;
+//       margin: 0;
+//     }
+
+//     #app {
+//       font-family:Poppins !important;
+//     }
+// The variables you want to modify
+// $font-size-root: 20px;
+@import './scss/general.scss';
+@import './scss/mixins.scss';
+@import './scss/params.scss';
+
+
+// $primary:#0D4566;
+// $secondary:#006633;
+$secondary:#0a1c44;
+$primary:#c71f40;
+$property_card_color:#0a1c44;
+$property_card_alt_color:#c71f40;
+$sub_text_color:#666666;
+//dashboard
+$dashboard_color:#c71f40;
+$gray-text:#999;
+
+
+@import './scss/preview.scss';
+//variable
+
+
+
+
+  // Vuetify general
+
+@media print {
+  .no-print{
+    display: none;
+  }
+
+}
